@@ -57,7 +57,7 @@ git clone https://github.com/devenvmgr/api-key-proxy
 ### 2. Move into the repository and create a new Heroku app
 
 ```sh
-cd api-key-proxy-heroku
+cd api-key-proxy
 heroku create
 ```
 
@@ -174,7 +174,7 @@ To test it on your local machine or for development purposes:
 
 ```sh
 git clone https://github.com/devenvmgr/api-key-proxy
-cd api-key-proxy-heroku
+cd api-key-proxy
 npm install
 ```
 
