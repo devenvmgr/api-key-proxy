@@ -29,4 +29,4 @@ app.use(notFound);
 app.use(errorHandler);
 
 const port = process.env.PORT || 5000;
-app.listen(port, () => debug(`Listening on port ${port}`));
+app.listen(port, () => debug(`Listening on port http://localhost:${port}`));

@@ -14,7 +14,7 @@ export interface Proxy extends Options {
 }
 
 const config: Config = {
-  allowedDomains: ['https://www.mauriciorobayo.com'],
+  allowedDomains: ['*'],
   proxies: [
     {
       route: '/weather',

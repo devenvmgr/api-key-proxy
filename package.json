@@ -9,9 +9,7 @@
     "start": "node built/app.js",
     "dev": "cross-env DEBUG=* NODE_ENV=development ts-node-dev src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "postinstall": "git config core.hooksPath .githooks || true",
-    "prepare": "git config core.hooksPath .githooks || true"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
